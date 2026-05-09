@@ -1,0 +1,14 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.uv-cache/
+.uv-python/
+.tmp/
+*.pyc
+
+data/raw/*.csv
+data/processed/*
+!data/processed/.gitkeep
+
+reports/*
+!reports/.gitkeep
